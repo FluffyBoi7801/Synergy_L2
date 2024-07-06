@@ -1,0 +1,21 @@
+.datePicker {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  gap: 12px;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+  }
+
+  &__button {
+    cursor: pointer;
+  }
+
+  &__messageContainer {
+    white-space: pre-line;
+  }
+}

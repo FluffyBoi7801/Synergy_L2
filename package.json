@@ -1,0 +1,47 @@
+{
+  "name": "tablichki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "author": "Artem Kuchinskii",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.23.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/classnames": "^2.3.1",
+    "@types/css-modules": "^1.0.5",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^20.5.9",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@types/sass": "^1.45.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "classnames": "^2.5.1",
+    "eslint": "^8.48.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-jest": "^27.9.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.0.3",
+    "sass": "^1.64.1",
+    "scss": "^0.2.4",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  }
+}
